@@ -1,0 +1,63 @@
+    1  ssh -i "ubuntuu_linux_key_pair.pem" ec2-user@ec2-13-58-30-165.us-east-2.compute.amazonaws.com
+    2  ssh -i ubuntuu_linux_key_pair.pem ec2-user@13.58.30.165
+    3  sudo su -
+    4  sudo apt autoremove
+    5  git version --
+    6  apt install git
+    7  git init
+    8  mkdir devops
+    9  touch file1
+   10  git remote add origin "https://github.com/vamsi516/devops"
+   11  git status
+   12  git add file1
+   13  git commit file1
+   14  git status
+   15  git ignore
+   16  gitignore
+   17  .gitignore
+   18  git--help
+   19  git --help
+   20  git-ignore
+   21  apt install git-extras
+   22  git-ignore
+   23  git status
+   24  git push -u origin master
+   25  git remote add origin "https://github.com/vamsi516/devops"
+   26  git push -u origin master
+   27  git clone 'https://github.com/vamsi516/devops'
+   28  git status
+   29  cd devops/
+   30  touch file2 file3
+   31  git add
+   32  git add file2 file3
+   33  git add devops/
+   34  git commit -m "second commit"
+   35  git config --global user.name "vamsi516"
+   36  git config --global user.mail "vamsi.krishna4351@gmail.com"
+   37  git commit -m "second commit"
+   38  git config --global user.email "vamsi.krishna4351@gmail.com"
+   39  git config --global user.name "vamsi516"
+   40  git status
+   41  git commit -m "secondcomit"
+   42  git push -u origin master
+   43  git log 
+   44  rm file2
+   45  git status
+   46  git add file2
+   47  git commit -m "third commit"
+   48  git status
+   49  git log
+   50  git reset --hard 48f7bb69bb85c1a969c1d74bf570b18d8954d98e 
+   51  git status
+   52  git push -u origin master
+   53  git log
+   54  vi .gitignore
+   55  git history
+   56  git --help
+   57  git log --oneline
+   58  cd .git/
+   59  ls -l
+   60  git ignore
+   61  git history
+   62  history
+root@vamsi-Virtu
